@@ -1,12 +1,12 @@
 package main
 
 import (
-	"facadeTesting/pkg/set-server"
-	"facadeTesting/pkg/work-server"
 	"bufio"
 	"fmt"
 	"net"
 	"strings"
+	"facadeTesting/pkg/set-server"
+	"facadeTesting/pkg/work-server"
 )
 
 func setServer() net.Conn {
