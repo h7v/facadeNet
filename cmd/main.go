@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"net"
 	"strings"
-	"facadeTesting/pkg/set-server"
-	"facadeTesting/pkg/work-server"
+	"github.com/h7v/facadeNet/pkg/set-server"
+	"github.com/h7v/facadeNet/pkg/work-server"
 )
 
 func setServer() net.Conn {
