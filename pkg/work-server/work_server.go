@@ -10,6 +10,7 @@ type workServer struct {
 	workServer bool
 }
 
+//Work of the server
 func (w *workServer) WorkServer() {
 	fmt.Println("work server")
 }
