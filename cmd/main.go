@@ -1,13 +1,14 @@
 package main
 
 import (
-	"github.com/h7v/facadeNet/facadeNet/pkg/facade"
-	"github.com/h7v/facadeNet/facadeNet/pkg/set-server"
-	"github.com/h7v/facadeNet/pkg/facade"
 	"bufio"
 	"fmt"
 	"net"
 	"strings"
+	
+	"github.com/h7v/facadeNet/pkg/facade"
+	"github.com/h7v/facadeNet/pkg/set-server"
+	"github.com/h7v/facadeNet/pkg/facade"
 )
 
 func setServer() net.Conn {
