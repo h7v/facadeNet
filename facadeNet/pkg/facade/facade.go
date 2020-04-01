@@ -26,7 +26,7 @@ func (s *server) Work() {
 }
 
 // This is facade that implement server logic
-func WorkingServer(setServer setServer, workServer workServer) Facade {
+func WorkingServer(setServer setServer, workServer workServer) (facadeArg Facade) {
 	return &server{
 		set:  setServer,
 		work: workServer,
