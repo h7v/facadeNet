@@ -19,13 +19,13 @@ type server struct {
 	work workServer
 }
 
-// Server functionality
+// Work implements server functionality
 func (s *server) Work() {
 	s.set.SetServer()
 	s.work.WorkServer()
 }
 
-// This is facade that implement server logic
+// WorkingServer is facade that implement server logic
 func WorkingServer(setServer setServer, workServer workServer) (facadeArg Facade) {
 	return &server{
 		set:  setServer,
