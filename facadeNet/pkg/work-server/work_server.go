@@ -11,17 +11,17 @@ type workServer struct {
 	workServer bool
 }
 
-// Check how server was work
+// CheckWorkServer check how server is working
 func (w *workServer) CheckWorkServer() (workServerArg string) {
 	return "work server"
 }
 
-//Work of the server
+// WorkServer is how server working
 func (w *workServer) WorkServer() {
 	fmt.Println("work server")
 }
 
-// Creating NewWorkServer
+// NewWorkServer creating 
 func NewWorkServer() (workServerArg *workServer) {
 	return &workServer{}
 }
