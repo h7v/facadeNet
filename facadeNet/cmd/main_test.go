@@ -27,7 +27,7 @@ func TestOk(t *testing.T) {
 	f.Work()
 }
 
-// This is separated mock test for SetServer
+// TestSeparatedMockTestForSetServer is separated mock test for SetServer
 func TestSeparatedMockTestForSetServer(t *testing.T) {
 	set := set_server.NewSetServer()
 	okResult := "set server"
@@ -37,7 +37,7 @@ func TestSeparatedMockTestForSetServer(t *testing.T) {
 	}
 }
 
-// This is separated mock test for WorkServer
+// TestSeparatedMockTestForWorkServer is separated mock test for WorkServer
 func TestSeparatedMockTestForWorkServer(t *testing.T) {
 	work := work_server.NewWorkServer()
 	okResult := "work server"
