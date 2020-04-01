@@ -12,7 +12,7 @@ type setServer struct {
 }
 
 // Check how server was set
-func (s *setServer) CheckSetServer() string {
+func (s *setServer) CheckSetServer() (setServerArg string) {
 	return "set server"
 }
 
