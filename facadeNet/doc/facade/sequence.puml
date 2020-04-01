@@ -1,0 +1,9 @@
+@startuml
+
+Facade <- setserver: Setting server
+Facade <-workserver: Server start working
+
+server<- client:  client message
+server-> client: server message
+
+@enduml
