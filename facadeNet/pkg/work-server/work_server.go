@@ -22,6 +22,6 @@ func (w *workServer) WorkServer() {
 }
 
 // Creating NewWorkServer
-func NewWorkServer() *workServer {
+func NewWorkServer() (workServer *workServer) {
 	return &workServer{}
 }
