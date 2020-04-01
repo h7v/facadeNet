@@ -22,6 +22,6 @@ func (s *setServer) SetServer() {
 }
 
 // Creating NewSetServer
-func NewSetServer() *setServer {
+func NewSetServer() (setServerArg *setServer) {
 	return &setServer{}
 }
