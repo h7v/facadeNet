@@ -12,7 +12,7 @@ type workServer struct {
 }
 
 // Check how server was work
-func (w *workServer) CheckWorkServer() (workServer string) {
+func (w *workServer) CheckWorkServer() (workServerArg string) {
 	return "work server"
 }
 
@@ -22,6 +22,6 @@ func (w *workServer) WorkServer() {
 }
 
 // Creating NewWorkServer
-func NewWorkServer() (workServer *workServer) {
+func NewWorkServer() (workServerArg *workServer) {
 	return &workServer{}
 }
