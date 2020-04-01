@@ -2,7 +2,7 @@ package set_server
 
 import "fmt"
 
-// Set server interface
+// SetServer interface
 type SetServer interface {
 	SetServer()
 }
@@ -11,17 +11,17 @@ type setServer struct {
 	setServer bool
 }
 
-// Check how server was set
+// CheckSetServer checks how server was set
 func (s *setServer) CheckSetServer() (setServerArg string) {
 	return "set server"
 }
 
-// Setting server
+// SetServer is setting server
 func (s *setServer) SetServer() {
 	fmt.Println("set server")
 }
 
-// Creating NewSetServer
+// NewSetServer creating 
 func NewSetServer() (setServerArg *setServer) {
 	return &setServer{}
 }
