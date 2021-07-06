@@ -1,0 +1,17 @@
+@startuml
+
+package "facade"{
+facade_ - [facade]
+}
+
+package "setserver"{
+setserver_ - [setserver]
+facade_<--setserver_
+}
+
+package "workserver"{
+workserver_ - [workserver]
+facade_<--workserver_
+}
+
+@enduml
